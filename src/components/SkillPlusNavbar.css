@@ -1,0 +1,35 @@
+.self-paced-btn {
+    background-color: #e6f2ff;
+    border: none;
+    color: #0066cc;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .self-paced-btn:hover, .self-paced-btn:focus {
+    background-color: #d1e7ff;
+    color: #0066cc;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    .navbar-nav .btn {
+      margin-top: 1rem;
+      margin-left: 0 !important;
+    }
+  
+    .navbar-brand {
+      margin-right: 0 !important;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .navbar-toggler {
+      display: none;
+    }
+  }

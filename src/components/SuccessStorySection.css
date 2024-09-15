@@ -1,0 +1,64 @@
+.success-story-section {
+    background-color: #f0f8ff;
+  }
+  
+  .success-story-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .success-story-section h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .success-story-section ul {
+    padding-left: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .success-story-section li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon-card {
+    background-color: #e6e6fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-card svg {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #4169e1;
+  }
+  
+  .icon-card p {
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  
+  .btn-secondary {
+    background-color: #a9a9a9;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #808080;
+  }
+  
+  @media (max-width: 767px) {
+    .icon-card {
+      margin-bottom: 1rem;
+    }
+  }
